@@ -111,12 +111,12 @@ h5 {
 }
 
   .cytrusbutton:hover {
-    background-color: #4CAF50; 
+    background-color: #4CAF50; /* light-green like color ig */
     color: white;
   }
 
   .cytrusbutton {
-    background: teal;
+    background: teal; /*teal*/
     color: white;
     border: 2px rgb(35, 35, 35);
     transition-duration: 0.4s;
