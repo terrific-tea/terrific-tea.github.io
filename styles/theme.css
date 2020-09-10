@@ -1,5 +1,5 @@
-/* The CSS for Cytrus-RE's site! */
-/* Any questions? Ask Odyssey346#9848 or Rexowogamer#1183 on Discord or @Odyssey346 on Telegram. */
+/* The CSS for Terrific Tea's site! */
+/* Any questions? Ask Odyssey346#9848, Commandblock6417#9366 or Rexowogamer#1183 on Discord or @Odyssey346 on Telegram. */
 body {
   background: rgb(20, 20, 20);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -110,12 +110,12 @@ h5 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-  .cytrusbutton:hover {
+  .terrificbutton:hover {
     background-color: #4CAF50; /* light-green like color ig */
     color: white;
   }
 
-  .cytrusbutton {
+  .terrificbutton {
     background: teal; /*teal*/
     color: white;
     border: 2px rgb(35, 35, 35);
