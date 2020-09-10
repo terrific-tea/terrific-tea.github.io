@@ -1,0 +1,128 @@
+/* The CSS for Cytrus-RE's site! */
+/* Any questions? Ask Odyssey346#9848 or Rexowogamer#1183 on Discord or @Odyssey346 on Telegram. */
+body {
+  background: rgb(20, 20, 20);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white
+}
+
+header {
+  background: #3A3A3A;
+  width: 100%;
+  padding: 5px 4px;
+  border-radius: 4px;
+  position: relative;
+}
+a { 
+  color: inherit; 
+} /* This allows a HTML redirect to have the same color as the text before the redirect, used in the footer. Neat, ain't it? */
+
+.divider{
+  width:5px;
+  height:auto;
+  display:inline-block;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100;
+  padding: 7px 7px;
+  border-radius: 0px;
+  background: gray;
+  bottom: 0
+}
+
+.center {
+  text-align: center;
+  /* border: 3px solid green; */
+}
+
+header nav ul {
+  margin-top: 0.5em;
+}
+ 
+header nav ul li {
+  display: inline;
+  margin: 0;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  background-color: #00b3b3; /* turquoise */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.5s;
+}
+
+header nav ul li:after a {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+header nav ul li:hover a {
+  padding-right: 25px
+}
+
+header nav ul li:after a:hover {
+  padding-right: 25px;
+}
+
+
+
+permtext {
+  color: #B9FFF4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: lightskyblue;
+}
+h5 {
+  color: green
+}
+
+.button {
+  border: none;
+  color: #00b3b3;
+  padding: 24px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  .cytrusbutton:hover {
+    background-color: #4CAF50; 
+    color: white;
+  }
+
+  .cytrusbutton {
+    background: teal;
+    color: white;
+    border: 2px rgb(35, 35, 35);
+    transition-duration: 0.4s;
+    border-radius: 2px;   
+    font-size: 20px;
+    height: 75px;
+    width: 220px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
