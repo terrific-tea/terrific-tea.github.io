@@ -1,16 +1,20 @@
 /* The CSS for Terrific Tea's site! */
 /* Any questions? Ask Odyssey346#9848, Commandblock6417#9366 or Rexowogamer#1183 on Discord or @Odyssey346 on Telegram. */
+@font-face {
+  font-family: Titillium Web Regular;
+  src: url(../src/fonts/TitilliumWeb-Regular.ttf);
+}
 body {
   background: rgb(20, 20, 20);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Titillium Web Regular', sans-serif;
   color: white
 }
 
 header {
   background: #3A3A3A;
   width: 100%;
-  padding: 5px 4px;
-  border-radius: 4px;
+  padding: 8px 4px;
+  border-radius: 16px;
   position: relative;
 }
 a { 
@@ -51,7 +55,6 @@ header nav ul li {
 header nav ul li a {
   color: #fff;
   text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1em;
   background-color: #00b3b3; /* turquoise */
   border: none;
@@ -84,13 +87,6 @@ header nav ul li:after a:hover {
   padding-left: 25px;
 }
 
-
-
-permtext {
-  color: #B9FFF4;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 h1 {
   color: lightskyblue;
 }
@@ -110,7 +106,6 @@ h5 {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
   .headerbutton:hover {
     background-color: #4CAF50; /* light-green like color ig */
@@ -122,82 +117,51 @@ h5 {
     color: white;
     border: 2px rgb(35, 35, 35);
     transition-duration: 0.4s;
-    border-radius: 10px;   
+    border-radius: 16px;   
     font-size: 20px;
-    height: 30px;
+    height: 32px;
     min-width: 100px;
     max-width: 200px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  .terrificbutton:hover {
-    background-color: #4CAF50; /* light-green like color ig */
-    color: white;
   }
 
   .terrificbutton {
-    background: teal; /*teal*/
-    color: white;
     border: 2px rgb(35, 35, 35);
     transition-duration: 0.4s;
-    border-radius: 10px;   
+    border-radius: 16px;   
     font-size: 20px;
     height: 64px;
-    width: 256px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 256px;
   }
 
-  .discordbutton {
+  #DiscordSupportServerButton {
     background: #7289DA; 
     color: #fff;
-    border: 2px rgb(35, 35, 35);
-    transition-duration: 0.4s;
-    border-radius: 10px;   
-    font-size: 20px;
-    height: 64px;
-    width: 256px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  .discordbutton:hover {
+  #DiscordSupportServerButton:hover {
     background: #fff;
     color: #7289DA;
   }
-  .githubbutton {
+  
+  #GitHubOrgButton {
     background: #0366d6; 
     color: #fff;
-    border: 2px rgb(35, 35, 35);
-    transition-duration: 0.4s;
-    border-radius: 10px;   
-    font-size: 20px;
-    height: 64px;
-    width: 256px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  .githubbutton:hover {
+  #GitHubOrgButton:hover {
     background: #fafbfc;
     color: #0366d6;
   }
-  .twitterbutton {
+  
+  #TwitterButton {
     background: #1da1f2; 
     color: #fff;
-    border: 2px rgb(35, 35, 35);
-    transition-duration: 0.4s;
-    border-radius: 10px;   
-    font-size: 20px;
-    height: 64px;
-    width: 256px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  .twitterbutton:hover {
+  #TwitterButton:hover {
     background: #fff;
     color: #1da1f2;
   }
- /* .discordImg {
-    width: 49px;
-    height: 48px;
-    background: url("../imagesrc/Discord-Logo-White.png") no-repeat;
-    vertical-align: middle;
-    transition-duration: 0.4s;
+
+  .sociallink {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    margin-right: 0px;
   }
-  .discordImg:hover {
-    background: url("../imagesrc/Discord-Logo-Color.png");
-  }*/
