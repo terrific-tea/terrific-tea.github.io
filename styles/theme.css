@@ -75,11 +75,13 @@ header nav ul li:after a {
   transition: 0.5s;
 }
 header nav ul li:hover a {
-  padding-right: 25px
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 header nav ul li:after a:hover {
   padding-right: 25px;
+  padding-left: 25px;
 }
 
 
@@ -110,7 +112,23 @@ h5 {
   cursor: pointer;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+  .headerbutton:hover {
+    background-color: #4CAF50; /* light-green like color ig */
+    color: white;
+  }
 
+  .headerbutton {
+    background: #00b3b3; /*teal*/
+    color: white;
+    border: 2px rgb(35, 35, 35);
+    transition-duration: 0.4s;
+    border-radius: 10px;   
+    font-size: 20px;
+    height: 30px;
+    min-width: 100px;
+    max-width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
   .terrificbutton:hover {
     background-color: #4CAF50; /* light-green like color ig */
     color: white;
@@ -121,9 +139,65 @@ h5 {
     color: white;
     border: 2px rgb(35, 35, 35);
     transition-duration: 0.4s;
-    border-radius: 2px;   
+    border-radius: 10px;   
     font-size: 20px;
     height: 75px;
     width: 220px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+
+  .discordbutton {
+    background: #7289DA; 
+    color: #fff;
+    border: 2px rgb(35, 35, 35);
+    transition-duration: 0.4s;
+    border-radius: 10px;   
+    font-size: 20px;
+    height: 75px;
+    width: 220px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .discordbutton:hover {
+    background: #fff;
+    color: #7289DA;
+  }
+  .githubbutton {
+    background: #0366d6; 
+    color: #fff;
+    border: 2px rgb(35, 35, 35);
+    transition-duration: 0.4s;
+    border-radius: 10px;   
+    font-size: 20px;
+    height: 75px;
+    width: 220px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .githubbutton:hover {
+    background: #fafbfc;
+    color: #0366d6;
+  }
+  .twitterbutton {
+    background: #1da1f2; 
+    color: #fff;
+    border: 2px rgb(35, 35, 35);
+    transition-duration: 0.4s;
+    border-radius: 10px;   
+    font-size: 20px;
+    height: 75px;
+    width: 220px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .twitterbutton:hover {
+    background: #fff;
+    color: #1da1f2;
+  }
+ /* .discordImg {
+    width: 49px;
+    height: 48px;
+    background: url("../imagesrc/Discord-Logo-White.png") no-repeat;
+    vertical-align: middle;
+    transition-duration: 0.4s;
+  }
+  .discordImg:hover {
+    background: url("../imagesrc/Discord-Logo-Color.png");
+  }*/
