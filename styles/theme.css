@@ -141,8 +141,8 @@ h5 {
     transition-duration: 0.4s;
     border-radius: 10px;   
     font-size: 20px;
-    height: 75px;
-    width: 220px;
+    height: 64px;
+    width: 256px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
@@ -153,8 +153,8 @@ h5 {
     transition-duration: 0.4s;
     border-radius: 10px;   
     font-size: 20px;
-    height: 75px;
-    width: 220px;
+    height: 64px;
+    width: 256px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .discordbutton:hover {
@@ -168,8 +168,8 @@ h5 {
     transition-duration: 0.4s;
     border-radius: 10px;   
     font-size: 20px;
-    height: 75px;
-    width: 220px;
+    height: 64px;
+    width: 256px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .githubbutton:hover {
@@ -183,8 +183,8 @@ h5 {
     transition-duration: 0.4s;
     border-radius: 10px;   
     font-size: 20px;
-    height: 75px;
-    width: 220px;
+    height: 64px;
+    width: 256px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .twitterbutton:hover {
