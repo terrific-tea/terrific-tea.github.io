@@ -1,8 +1,9 @@
-/* The CSS for the member grid displated in the team page */
+/* The CSS for the member grid displayed in the team page */
 
 .CardSection {
     width: 100%;
     text-align: center;
+    padding-bottom: 80px;
 }
 
 .TerrificMemberCard {
