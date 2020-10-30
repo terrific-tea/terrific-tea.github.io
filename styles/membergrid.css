@@ -13,7 +13,7 @@
     padding: 15px;
     border: 1px solid rgb(167, 167, 167);
     border-radius: 20px;
-    height: calc(150px + em);
+    height: calc(128px + 3em);
     cursor: pointer;
 }
 
