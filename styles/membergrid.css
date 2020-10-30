@@ -8,19 +8,19 @@
 
 .TerrificMemberCard {
     display: inline-block;
-    width: calc(33% - 40px);
+    width: calc(33% - 80px);
     margin: 15px;
     padding: 15px;
     border: 1px solid rgb(167, 167, 167);
     border-radius: 20px;
-    height: 250px;
+    height: calc(150px + em);
     cursor: pointer;
 }
 
 .TerrificMemberImg {
-    size: 128px;
-    padding: 15px;
-    margin: 15px;
+    width: 128px;
+    margin: auto;
+    display: block;
     position: relative;
     align-self: center;
     border-radius: 30px;
