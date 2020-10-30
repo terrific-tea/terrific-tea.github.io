@@ -11,7 +11,7 @@
 	<body>
 		<!--Add the header and footer as iframes, move them to the main html file, and self destruct on load-->
 		<!--Epic sauce: https://css-tricks.com/the-simplest-ways-to-handle-html-includes/ -->
-		<iframe src="src/header.html" ></iframe>
+		<iframe src="src/header.html" onload="this.before(this.contentDocument.children[0]);this.remove()"></iframe>
   
 		<h1>Terrific Tea Studios</h1>
 		<h5>A bunch of 13 year olds hammering down their keyboards.</h5>
@@ -27,7 +27,7 @@
 
 		<h2>The site is currently under construction. If you would like to contribute, please get in touch with us.</h2>
 
-		<iframe src="src/footer.html" ></iframe>
+		<iframe src="src/footer.html" onload="this.before(this.contentDocument.children[0]);this.remove()"></iframe>
   
 	</body>
 </html>
