@@ -9,15 +9,9 @@
 
 	
 	<body>
-		<header>		
-				<nav>
-					<ul>
-						<a href="index.html" ><img style="vertical-align: middle; width: 192px; height: 48px;" src="src/images/tts-logo-full-1.5x.png" alt="Terrific Tea Studios"></a>
-						<li><a href="index.html" class="terrific headerbutton">Other Test Button</a></li>
-						<li><a href="index.html" class="terrific headerbutton">Another test</a></li>	
-					 </ul>
-				</nav>
-		</header>
+		
+		<iframe src="index.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+  
 		<h1>Terrific Tea Studios</h1>
 		<h5>A bunch of 13 year olds hammering down their keyboards.</h5>
 		<div class="center"> 
@@ -31,24 +25,7 @@
 		</div>
 
 		<h2>The site is currently under construction. If you can contribute, please do so.</h2>
-		<footer>
-				<nav>
-					<div class="center">
-						<h4>This project was made by 
-							<a href="https://github.com/terrific-tea">Terrific Tea Studios.
-							</a>
-							<a href="https://github.com/terrific-tea/terrific-tea.github.io">Help us improve the site!</a>
-						</h4>
-					</div>
-					
-					<a class="sociallink" href="https://discord.gg/ymZmdaA" title="Terrific Tea Studios on Discord"><img style="width: 20px; height: 20px;"src="src/images/discord.svg"></a>
-					
-					<a class="sociallink" href="https://github.com/terrific-tea/" title="Terrific Tea Studios on GitHub"><img style="width: 20px; height: 20px;"src="src/images/github.svg"></a>
-
-					
-					<a class="sociallink" href="https://twitter.com/TTSBotsApps" title="Terrific Tea Studios on Twitter"><img style="width: 20px; height: 20px;"src="src/images/twitter.svg"></a>
-
-				</nav>
-		</footer>
+		<iframe src="footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+  
 	</body>
 </html>
