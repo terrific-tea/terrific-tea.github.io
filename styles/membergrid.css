@@ -1,0 +1,26 @@
+/* The CSS for the member grid displated in the team page */
+
+.CardSection {
+    width: 100%;
+    text-align: center;
+}
+
+.TerrificMemberCard {
+    display: inline-block;
+    width: calc(33% - 40px);
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 20px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.TerrificMemberImg {
+    size: 128px;
+    padding: 15px;
+    margin: 15px;
+    position: relative;
+    align-self: center;
+    border-radius: 30px;
+}
