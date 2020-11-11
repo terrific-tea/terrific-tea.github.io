@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Our Team - Terrific Tea Studios</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="/styles/theme.css">
+		<link rel="stylesheet" type="text/css" href="/styles/membergrid.css">
+		<link rel="icon" href="/src/images/favicon.png" sizes="16x16" type="image/png">
+	</head>
+
+	
+	<body>
+		<!--Add the header and footer as iframes, copy them to the main html file, and self destruct on load-->
+		<!--Epic sauce: https://css-tricks.com/the-simplest-ways-to-handle-html-includes/ -->
+		<iframe src="/src/header.html" onload="this.before(this.contentDocument.body.children[0]);this.remove()"></iframe>
+  
+		<h1>Our Team</h1>
+		
+		<p>We are Terrific Tea Studios, a group of teenagers interested in learning coding, computer science, system admin and all the relative nerd stuff. TTS was founded in 2019 by two British friends, "Rexowogamer" and "Derser The Angry Fennec". Since then, other teens around the world have joined the team, now counting 5 active members. Every day, we have fun together learning new techniques for making software and laughing at Rexowogamer's genuinely Bri'ish humour. We hope you have a great time exploring and using our software, as much as we had creating them. We'd love to see you on our Discord community server, where we discuss about all sorts of subjects, but mainly technology, coding and of course, memes!<br><br>Cheers,<br><br>Devnol<br>Director of Software Development at Terrific Tea Studios.</p>
+
+		<h3>You can read more about our members in their personal bio pages:</h3>
+
+		<div class="CardSection">
+			<div class="TerrificMemberCard" onclick="window.location.href='./rexowogamer.html';">
+				<img class="TerrificMemberImg" src="https://cdn.discordapp.com/avatars/395990735934980097/2ac8130a64ca08b7ac4820d73644b141.webp?size=512"><p>Rexowogamer</p> 
+			</div>
+			<div class="TerrificMemberCard" onclick="window.location.href='./devnol.html';">
+				<img class="TerrificMemberImg" src="https://cdn.discordapp.com/avatars/429353559566319626/9c6ce3d82c1a080576d16c4ba4c38772.webp?size=512"><p>Devnol</p>
+			</div>
+			<div class="TerrificMemberCard" onclick="window.location.href='./quantumlytangled.html';">
+				<img class="TerrificMemberImg" src="https://cdn.discordapp.com/avatars/126321762483830785/baebcb5bd19bc4b2582b960b34bd4de3.webp?size=512"><p>QuantumlyTangled</p>
+			</div>
+		</div>
+		
+
+        <h2>The site is currently under construction. If you would like to contribute, please get in touch with us.</h2>
+
+		<iframe src="/src/footer.html" onload="this.before(this.contentDocument.body.children[0]);this.remove();"></iframe>        
+	</body>
+</html>
