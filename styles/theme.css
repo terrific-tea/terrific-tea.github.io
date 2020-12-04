@@ -10,6 +10,11 @@
 	/*still could go horribly wrong since it loads both mobile and pc css so yeah*/
 	#content-desktop {display: none;}
 	#content-mobile {display: block;}
+	
+header nav ul {
+  margin-top: 0;
+}
+ 
 }
 
 

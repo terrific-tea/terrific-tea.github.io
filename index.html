@@ -13,7 +13,7 @@
 		
 		<!--Add the header and footer as iframes, copy them to the main html file, and self destruct on load-->
 		<!--Epic sauce: https://css-tricks.com/the-simplest-ways-to-handle-html-includes/ -->
-		<iframe src="/src/header.html" onload="this.before(this.contentDocument.body.children[0]);this.remove()"></iframe>
+		<iframe src="/src/headers-and-footers/header/header_desktop.html" onload="this.before(this.contentDocument.body.children[0]);this.remove()"></iframe>
   
   
 		<h1>Terrific Tea Studios</h1>
@@ -31,15 +31,17 @@
 		
 		<h2>The site is currently under construction. If you would like to contribute, please get in touch with us.</h2>
 
-		<iframe src="/src/footer.html" onload="this.before(this.contentDocument.body.children[0]);this.remove();"></iframe>
+		<iframe src="/src/headers-and-footers/footer/footer_desktop.html" onload="this.before(this.contentDocument.body.children[0]);this.remove();"></iframe>
 
 			</div> <!--end of desktop mode-->
 			
 		<div id="content-mobile"> <!--beginning of mobile mode-->
-		<p style="text-align: center;"> sorry dude but mobile webpage is cancelled</p>
-		<img src="https://i.kym-cdn.com/photos/images/newsfeed/001/623/160/8c6.gif" alt="crab rave" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" /> 
-		<p style="text-align: center;">enjoy this picture instead</p>
-		<p style="text-align: center; font-size: 10px">PS: come back later when we revamp the website for mobile UI!</p>
+		<iframe src="/src/headers-and-footers/header/header_mobile.html" onload="this.before(this.contentDocument.body.children[0]);this.remove()"></iframe>
+			
+		<h1>Terrific Tea Studios</h1>
+		<h5>A bunch of teens hammering down their keyboards.</h5>
+		<div class="center"> 	
+		
 		</div> <!--end of mobile mode-->
 	</body>
 </html>
