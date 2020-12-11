@@ -46,7 +46,7 @@ a {
 }
 
 footer {
-  position:absolute;
+  position: fixed;
   left: 0;
   right: 0;
   width: 100;
