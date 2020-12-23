@@ -10,12 +10,14 @@
             document.getElementById('debug').innerHTML = userAgent;
         </script>
         <button onClick="redir()">Click me!</button>
+        <label id="debug2"></label>
         <script>
             function redir() {
 			        var userAgentVar = navigator.userAgent;
 			        if (userAgentVar.includes("Mobile")) {
+                        document.getElementById('debug2').innerHTML = "Function read"
 				        window.location.replace = "https://terrific-tea.github.io/mobilepages/index.html";
-			    }
+			     }
             }
 		</script>
     </body>
