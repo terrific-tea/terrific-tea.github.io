@@ -9,5 +9,14 @@
             var userAgent = navigator.userAgent;
             document.getElementById('debug').innerHTML = userAgent;
         </script>
+        <button onClick="redir()">Click me!</button>
+        <script>
+            function redir() {
+			        var userAgentVar = navigator.userAgent;
+			        if (userAgentVar.includes("Mobile")) {
+				    window.location.replace = "https://terrific-tea.github.io/mobilepages/index.html";
+			    }
+            }
+		</script>
     </body>
 </html>
