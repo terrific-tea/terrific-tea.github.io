@@ -14,16 +14,16 @@
 		<meta property="og:title" content="Terrific Tea Studios"> <!-- Sets the title in the embed -->
 		<meta property="og:description" content="Terrific Tea Studio's main website, which has a lot of information about TTS!"> <!-- Sets the description on the embed -->
 		<meta property="og:image" content="https://terrific-tea.github.io/src/images/favicon.png"> <!-- Sets the image in the embed --> 
-	</head>
-
-	
-	<body>
 		<script>
 			var userAgent = navigator.userAgent;
 			if (string.split(userAgent).includes("Mobile")) {
 				window.location.href = "https://terrific-tea.github.io/mobilepages/index.html"
 			}
 		</script>
+	</head>
+
+	
+	<body>
 		<!--Add the header and footer as iframes, copy them to the main html file, and self destruct on load-->
 		<!--Epic sauce: https://css-tricks.com/the-simplest-ways-to-handle-html-includes/ -->
 		<iframe src="/src/header.html" onload="this.before(this.contentDocument.body.children[0]);this.remove()"></iframe>
