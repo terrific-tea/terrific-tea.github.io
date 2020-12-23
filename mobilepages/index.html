@@ -24,4 +24,9 @@
 		<div class="center">
 			<button onclick="location.href = 'https://terrific-tea.github.io/links/discord';" id="DiscordSupportServerButton" class="terrific terrificbutton">In the meantime, why not join our Discord?</button>
         </div>
+        <b>User agent string: <label id="debug"></label></b>
+        <script>
+            var userAgent = navigator.userAgent;
+            document.getElementById('debug').innerHTML = userAgent;
+        </script>
     </body>
