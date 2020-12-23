@@ -4,6 +4,7 @@
         <title>debug</title>
     </head>
     <body>
+        https://terrific-tea.github.io/mobilepages/index.html
         <label id="debug"></label> <p> is your user agent string.</p>
         <script>
             var userAgent = navigator.userAgent;
@@ -15,8 +16,8 @@
             function redir() {
 			        var userAgentVar = navigator.userAgent;
 			        if (userAgentVar.includes("Mobile")) {
-                        document.getElementById('debug2').innerHTML = "Function read"
-				        window.location.reload = "https://terrific-tea.github.io/mobilepages/index.html";
+                        document.getElementById('debug2').innerHTML = "Function read";
+				        window.location.assign("https://terrific-tea.github.io/mobilepages/index.html")
 			     }
             }
 		</script>
