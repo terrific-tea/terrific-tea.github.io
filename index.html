@@ -44,14 +44,11 @@
 
 			</div> <!--end of desktop mode-->
 			
-		<div id="content-mobile"> <!--beginning of mobile mode-->
-		<p style="text-align: center;">Mobile page is under construction</p>
-		<img src="https://media.tenor.com/images/f736b990eb506ac45fa95e6e9337f8df/tenor.gif" alt="engineer ur ugly" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" /> 
-		<p style="text-align: center;">This is essentially what we're doing right now.</p>
-		<p style="text-align: center; font-size: 10px">This site is under construction for mobile users. Please visit this page on a desktop or enable "Force Desktop Mode" in your browser. </p>
-		<div class="center">
-			<button onclick="location.href = 'https://terrific-tea.github.io/links/discord';" id="DiscordSupportServerButton" class="terrific terrificbutton">In the meantime, why not join our Discord?</button>
-		</div>
-		</div> <!--end of mobile mode-->
+		<script>
+			var userAgent = navigator.userAgent;
+			if (string.split(userAgent).includes("Android", "iPhone")) {
+				window.location.href = "https://terrific-tea.github.io/mobilepages/index.html"
+			}
+		</script>
 	</body>
 </html>
