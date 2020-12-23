@@ -19,8 +19,8 @@
     <body>
         <script>
 			var userAgentVar = navigator.userAgent;
-			if (userAgentVar.includes("Mobile")) {
-				window.location.assign("https://terrific-tea.github.io/mobilepages/index.html");
+			if (!userAgentVar.includes("Mobile")) {
+				window.location.assign("https://terrific-tea.github.io/index.html");
 			}
 		</script>
         <p style="text-align: center;">Mobile page is under construction</p>
