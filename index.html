@@ -19,9 +19,9 @@
 	
 	<body>
 		<script>
-			var userAgentVar = navigator.userAgent;
-			if (userAgentVar.includes("Mobile")) {
-				window.location.assign("https://terrific-tea.github.io/mobilepages/index.html")
+			var userAgentVar = navigator.userAgent; // get useragent and assign to a variable
+			if (userAgentVar.includes("Mobile")) { // if the useragent has "Mobile" in it redirect to the mobile page
+				window.location.assign("https://terrific-tea.github.io/mobilepages/index.html") // redirect to mobile page
 			}
 		</script>
 		<!--Add the header and footer as iframes, copy them to the main html file, and self destruct on load-->
