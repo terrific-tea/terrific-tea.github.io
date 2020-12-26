@@ -38,7 +38,6 @@ footer {
   border-radius: 0px;
   background: #3A3A3A;
   bottom: 0;
-  z-index: 0;
 }
 
 
@@ -136,7 +135,10 @@ h5 {
     font-size: 20px;
     height: 64px;
     max-width: 256px;
+<<<<<<< HEAD
     margin-bottom: 15px;
+=======
+>>>>>>> parent of ebf9d24 (trying something slightly mobile-friendlier)
   }
 
   #DiscordSupportServerButton {
