@@ -18,6 +18,7 @@
 
 	
 	<body>
+		<div class="content">
 		<script>
 			var userAgentVar = navigator.userAgent; // get useragent and assign to a variable
 			if (userAgentVar.includes("Mobile")) { // if the useragent has "Mobile" in it redirect to the mobile page
@@ -43,7 +44,7 @@
 
 		
 		<h2>The site is currently under construction. If you would like to contribute, please get in touch with us.</h2>
-
-		<iframe src="/src/footer.html" onload="this.before(this.contentDocument.body.children[0]);this.remove();"></iframe>
+		</div>
+		<div class="footer"><iframe src="/src/footer.html" onload="this.before(this.contentDocument.body.children[0]);this.remove();"></iframe></div>
 	</body>
 </html>

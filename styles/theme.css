@@ -11,6 +11,11 @@ body {
   color: white
 }
 
+content {
+  height:100%;
+  min-height:300px;
+}
+
 header {
   background: #3A3A3A;
   width: 100%;
