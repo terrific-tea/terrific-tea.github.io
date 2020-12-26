@@ -10,6 +10,7 @@
 
 	
 	<body>
+		<div class="content">
 		<!--Add the header and footer as iframes, copy them to the main html file, and self destruct on load-->
 		<!--Epic sauce: https://css-tricks.com/the-simplest-ways-to-handle-html-includes/ -->
 		<iframe src="/src/header.html" onload="this.before(this.contentDocument.body.children[0]);this.remove()"></iframe>
@@ -42,7 +43,7 @@
 		
 
         <h2>The site is currently under construction. If you would like to contribute, please get in touch with us.</h2>
-
-		<iframe src="/src/footer.html" onload="this.before(this.contentDocument.body.children[0]);this.remove();"></iframe>        
+		</div>
+		<div class="footer"><iframe src="/src/footer.html" onload="this.before(this.contentDocument.body.children[0]);this.remove();"></iframe></div>      
 	</body>
 </html>
