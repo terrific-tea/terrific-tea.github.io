@@ -12,8 +12,7 @@ body {
 }
 
 content {
-  height:-142;
-  min-height:300px;
+  min-height:calc(100vh - 116px - 106px);
 }
 
 header {
