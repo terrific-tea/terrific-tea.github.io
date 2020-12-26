@@ -35,14 +35,14 @@ a {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   left: 0;
   right: 0;
   width: 100;
   padding: 7px 7px;
   border-radius: 0px;
   background: #3A3A3A;
-  bottom: 0;
+  bottom: 1;
 }
 
 
