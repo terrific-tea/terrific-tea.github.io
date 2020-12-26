@@ -18,7 +18,6 @@
 
 	
 	<body>
-		<div class="content">
 		<script>
 			var userAgentVar = navigator.userAgent; // get useragent and assign to a variable
 			if (userAgentVar.includes("Mobile")) { // if the useragent has "Mobile" in it redirect to the mobile page
@@ -29,7 +28,7 @@
 		<!--Epic sauce: https://css-tricks.com/the-simplest-ways-to-handle-html-includes/ -->
 		<iframe src="/src/header.html" onload="this.before(this.contentDocument.body.children[0]);this.remove()"></iframe>
   
-  
+		<div class="content"></div>
 		<h1>Terrific Tea Studios</h1>
 		<h3>We code things.</h3>
 		<div class="center"> 
