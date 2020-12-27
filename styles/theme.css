@@ -51,6 +51,10 @@ footer {
   border-radius: 0px;
   background: #3A3A3A;
   bottom: 0;
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: -200px;
 }
 
 
