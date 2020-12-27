@@ -5,14 +5,24 @@
   font-family: Titillium Web Regular;
   src: url(../src/fonts/TitilliumWeb-Regular.ttf);
 }
+
+html {
+  height:100%;
+  margin: 0;
+  padding: 0;
+}
 body {
   background: rgb(20, 20, 20);
   font-family: 'Titillium Web Regular', sans-serif;
-  color: white
+  color: white;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 content {
-  min-height:calc(100vh - 116px - 106px);
+  min-height: 100%;
+  position: relative;
 }
 
 header {
@@ -34,7 +44,7 @@ a {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   width: 100;
