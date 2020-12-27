@@ -18,32 +18,37 @@
 
 	
 	<body>
-		<script>
-			var userAgentVar = navigator.userAgent; // get useragent and assign to a variable
-			if (userAgentVar.includes("Mobile")) { // if the useragent has "Mobile" in it redirect to the mobile page
-				window.location.assign("https://terrific-tea.github.io/mobilepages/index.html") // redirect to mobile page
-			}
-		</script>
-		<!--Add the header and footer as iframes, copy them to the main html file, and self destruct on load-->
-		<!--Epic sauce: https://css-tricks.com/the-simplest-ways-to-handle-html-includes/ -->
-		<iframe src="/src/header.html" onload="this.before(this.contentDocument.body.children[0]);this.remove()"></iframe>
-  
-		<div class="content"></div>
-		<h1>Terrific Tea Studios</h1>
-		<h3>We code things.</h3>
-		<div class="center"> 
-
-			<button onclick="location.href = 'https://terrific-tea.github.io/links/discord';" id="DiscordSupportServerButton" class="terrific terrificbutton">Join our Discord server</button>
-
-			<button onclick="location.href = 'https://terrific-tea.github.io/links/ttsgithub';" id="GitHubOrgButton" class="terrific terrificbutton">Visit our GitHub</button>
-
-			<button onclick="location.href = 'https://terrific-tea.github.io/links/twitter';" id="TwitterButton" class="terrific terrificbutton">Follow us on Twitter</button>
-
-		</div>
-
+		<div class="container"></div>
+			<div class="content">
+				<script>
+					var userAgentVar = navigator.userAgent; // get useragent and assign to a variable
+					if (userAgentVar.includes("Mobile")) { // if the useragent has "Mobile" in it redirect to the mobile page
+						window.location.assign("https://terrific-tea.github.io/mobilepages/index.html") // redirect to mobile page
+					}
+				</script>
+				<!--Add the header and footer as iframes, copy them to the main html file, and self destruct on load-->
+				<!--Epic sauce: https://css-tricks.com/the-simplest-ways-to-handle-html-includes/ -->
+				<iframe src="/src/header.html" onload="this.before(this.contentDocument.body.children[0]);this.remove()"></iframe>
 		
-		<h2>The site is currently under construction. If you would like to contribute, please get in touch with us.</h2>
-		<iframe src="/src/footer.html" onload="this.before(this.contentDocument.body.children[0]);this.remove();"></iframe>
+				<div class="content">
+					<h1>Terrific Tea Studios</h1>
+					<h3>We code things.</h3>
+					<div class="center"> 
+
+						<button onclick="location.href = 'https://terrific-tea.github.io/links/discord';" id="DiscordSupportServerButton" class="terrific terrificbutton">Join our Discord server</button>
+
+						<button onclick="location.href = 'https://terrific-tea.github.io/links/ttsgithub';" id="GitHubOrgButton" class="terrific terrificbutton">Visit our GitHub</button>
+
+						<button onclick="location.href = 'https://terrific-tea.github.io/links/twitter';" id="TwitterButton" class="terrific terrificbutton">Follow us on Twitter</button>
+
+					</div>
+
+					
+					<h2>The site is currently under construction. If you would like to contribute, please get in touch with us.</h2>
+			</div>
+		</div>
+		<div class="foot">
+			<iframe src="/src/footer.html" onload="this.before(this.contentDocument.body.children[0]);this.remove();"></iframe>
 		</div>
 	</body>
 </html>

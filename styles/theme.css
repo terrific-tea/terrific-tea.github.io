@@ -14,9 +14,13 @@ body {
   height: 100%;
 }
 
-content {
+#container {
   min-height: 100%;
-  position: static;
+}
+
+content {
+  overflow: auto;
+  padding-bottom: 100px;
 }
 
 header {
