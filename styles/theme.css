@@ -7,6 +7,12 @@
   src: url(../src/fonts/TitilliumWeb-Regular.ttf);
 }
 
+@font-face {
+  font-family: Titillium Web Bold;
+  src: url(../src/fonts/TitilliumWeb-Bold.ttf);
+  font-weight: bold;
+}
+
 body {
   background: rgb(20, 20, 20);
   font-family: 'Titillium Web Regular', sans-serif;
