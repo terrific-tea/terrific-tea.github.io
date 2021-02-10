@@ -17,6 +17,9 @@ body {
   background: rgb(20, 20, 20);
   font-family: 'Titillium Web Regular', sans-serif;
   color: white;
+  height: 50%;
+  min-height: 50%;
+  position: relative;
 }
 
 #container {
@@ -48,14 +51,7 @@ a {
 }
 
 footer {
-  /* 
-  I FUCKING HATE THIS FOOTER SO FUCKING MUCH. 
-  IT IS AT THE BOTTOM ON SITES LIKE INDEX.HTML BECAUSE THERE'S NO CONTENT THERE. 
-  BUT ON SOMETHING LIKE TEAM INDEX IT OVERLAYS CONTENT. 
-  EVERY GODDAMN FUCKING FIX I TRY DOESN'T FUCKING WORK. WELL IT DOES BUT THEN THE FOOTER IS IN THE MIDDLE OF THE PAGE ON SITES LIKE INDEX.HTML.
-  CAN SOMEONE PLEASE FUCKING FIX THIS????? I FUCKING HATE THIS SHIT
-  */
-  position: fixed;
+  position: relative;
   left: 0;
   right: 0;
   width: 100;
@@ -65,7 +61,7 @@ footer {
   background: #3A3A3A;
   bottom: 0;
   height: auto;
-  margin-top: auto;
+  margin-top: 10px;
 }
 
 
